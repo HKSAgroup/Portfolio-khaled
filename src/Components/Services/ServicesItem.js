@@ -8,7 +8,7 @@ const ServicesItem = () => {
         <div>
             <Image
                 onClick={() => router.push('/service/[id]')}
-                src={img}
+                src={'https://i.ibb.co/Pjf1Nbh/Artboard-1-1-43d52c06.png'}
                 alt="image"
                 width={500}
                 height={500}
