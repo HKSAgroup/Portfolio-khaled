@@ -11,7 +11,7 @@ const ServicesItem = () => {
                 src={'https://i.ibb.co/Pjf1Nbh/Artboard-1-1-43d52c06.png'}
                 alt="image"
                 width={500}
-                height={500}
+                height={500}h
                 className='w-full cursor-pointer'
             />
 

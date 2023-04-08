@@ -19,10 +19,8 @@ const TeamMembers = () => {
                         height={200}
                         className='rounded-full mx-auto'
                     />
-                    <h1 className='text-2xl font-medium'>Mr. Jone Smith</h1>
-                    <p>Ui/Ux Designer</p>
-                    <p className='text-sm text-neutral'>revitions a videos and the images. <br/>
-                        more revitions</p>
+                    <h1 className='text-2xl font-medium mt-2'>Topu</h1>
+                    <p>JavaScript Developer</p>
                 </div>
                 <div className='text-center'>
                     <Image
@@ -32,10 +30,8 @@ const TeamMembers = () => {
                         height={200}
                         className='rounded-full mx-auto'
                     />
-                    <h1 className='text-2xl font-medium'>Mr. Jone Smith</h1>
-                    <p>Ui/Ux Designer</p>
-                    <p className='text-sm text-neutral'>revitions a videos and the images. <br/>
-                        more revitions</p>
+                    <h1 className='text-2xl font-medium mt-2'>Waliul</h1>
+                    <p>Python Developer</p>
                 </div>
                 <div className='text-center'>
                     <Image
@@ -45,10 +41,8 @@ const TeamMembers = () => {
                         height={200}
                         className='rounded-full mx-auto'
                     />
-                    <h1 className='text-2xl font-medium'>Mr. Jone Smith</h1>
-                    <p>Ui/Ux Designer</p>
-                    <p className='text-sm text-neutral'>revitions a videos and the images. <br/>
-                        more revitions</p>
+                    <h1 className='text-2xl font-medium mt-2'>Arif</h1>
+                    <p>Business Development Manager</p>
                 </div>
                 <div className='text-center'>
                     <Image
@@ -58,10 +52,8 @@ const TeamMembers = () => {
                         height={200}
                         className='rounded-full mx-auto'
                     />
-                    <h1 className='text-2xl font-medium'>Mr. Jone Smith</h1>
-                    <p>Ui/Ux Designer</p>
-                    <p className='text-sm text-neutral'>revitions a videos and the images. <br/>
-                        more revitions</p>
+                    <h1 className='text-2xl font-medium mt-2'>Sabib</h1>
+                    <p>Communication Manager</p>
                 </div>
                 <div className='text-center'>
                     <Image
@@ -71,10 +63,8 @@ const TeamMembers = () => {
                         height={200}
                         className='rounded-full mx-auto'
                     />
-                    <h1 className='text-2xl font-medium'>Mr. Jone Smith</h1>
-                    <p>Ui/Ux Designer</p>
-                    <p className='text-sm text-neutral'>revitions a videos and the images. <br/>
-                        more revitions</p>
+                    <h1 className='text-2xl font-medium mt-2'>Hridoy</h1>
+                    <p>Chief Engineer</p>
                 </div>
                 <div className='text-center'>
                     <Image
@@ -84,10 +74,8 @@ const TeamMembers = () => {
                         height={200}
                         className='rounded-full mx-auto'
                     />
-                    <h1 className='text-2xl font-medium'>Mr. Jone Smith</h1>
-                    <p>Ui/Ux Designer</p>
-                    <p className='text-sm text-neutral'>revitions a videos and the images. <br/>
-                        more revitions</p>
+                    <h1 className='text-2xl font-medium mt-2'>Noman</h1>
+                    <p>Designer</p>
                 </div>
             </div>
         </div>
