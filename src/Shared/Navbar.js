@@ -105,9 +105,11 @@ const Navbar = () => {
               </div>
 
               <div className="ml-3">
-                <button className='btn btn-sm btn-primary text-white rounded-full font-bold'>
-                  Contact
-                </button>
+                <Link href="https://api.whatsapp.com/send?phone=01722570947">
+                  <button className='btn btn-sm btn-primary text-white rounded-full font-bold'>
+                    Contact
+                  </button>
+                </Link>
 
               </div>
             </div>
