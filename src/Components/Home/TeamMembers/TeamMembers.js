@@ -1,6 +1,10 @@
 import Image from 'next/image';
 import React from 'react';
 import img from '../../../assets/images/artist-white 2.png'
+import img1 from '../../../assets/member/pic-1.png'
+import img2 from '../../../assets/member/pic-3.png'
+import img3 from '../../../assets/member/pic-5.png'
+import img4 from '../../../assets/member/user.png'
 
 const TeamMembers = () => {
     return (
@@ -13,7 +17,7 @@ const TeamMembers = () => {
             <div className='grid md:grid-cols-3 sm:grid-cols-2 gap-10'>
                 <div className='text-center'>
                      <Image
-                        src={img}
+                        src={img1}
                         alt="image"
                         width={200}
                         height={200}
@@ -24,7 +28,7 @@ const TeamMembers = () => {
                 </div>
                 <div className='text-center'>
                     <Image
-                        src={img}
+                        src={img2}
                         alt="image"
                         width={200}
                         height={200}
@@ -35,7 +39,7 @@ const TeamMembers = () => {
                 </div>
                 <div className='text-center'>
                     <Image
-                        src={img}
+                        src={img3}
                         alt="image"
                         width={200}
                         height={200}
@@ -46,7 +50,7 @@ const TeamMembers = () => {
                 </div>
                 <div className='text-center'>
                     <Image
-                        src={img}
+                        src={img4}
                         alt="image"
                         width={200}
                         height={200}
@@ -57,7 +61,7 @@ const TeamMembers = () => {
                 </div>
                 <div className='text-center'>
                     <Image
-                        src={img}
+                        src={img1}
                         alt="image"
                         width={200}
                         height={200}
@@ -68,7 +72,7 @@ const TeamMembers = () => {
                 </div>
                 <div className='text-center'>
                     <Image
-                        src={img}
+                        src={img2}
                         alt="image"
                         width={200}
                         height={200}
