@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "title": "PHP",
+        "category": "development",
+        "img": "https://i.ibb.co/SsWMfFQ/figma-ace00728.png "
+    },
+    {
+        "id": "2",
+        "title": "NODE JS",
+        "category": "development",
+        "img": "https://i.ibb.co/QrLLx7s/illustrator-cc379993.png"
+    },
+    {
+        "id": "3",
+        "title": "Python",
+        "category": "development",
+        "img": "https://i.ibb.co/qJM5ftv/photoshop-6d39c550.png"
+    },
+    {
+        "id": "4",
+        "title": "React JS",
+        "category": "development",
+        "img": "https://i.ibb.co/r0nQ7XM/adove-ca4eb915.png"
+    }
+]
