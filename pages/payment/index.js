@@ -23,7 +23,7 @@ const index = () => {
                 <h1 className='mt-28 text-2xl font-medium mb-10'>Select a Card</h1>
 
                 <div className='grid md:grid-cols-4 grid-cols-2 gap-5'>
-                    <div className='sm:flex justify-center items-center px-4 py-9 gap-3 shadow  relative'>
+                    {/* <div className='sm:flex justify-center items-center px-4 py-9 gap-3 shadow  relative'>
                         <Image
                             src={bank}
                             alt="image"
@@ -36,7 +36,7 @@ const index = () => {
                         <div className='absolute bottom-0 right-0  bg-base-200 p-1 cursor-pointer rounded-l rounded-t'>
                             <IoIosArrowDown className='text-xl text-info font-bold' />
                         </div>
-                    </div>
+                    </div> */}
                     <div className='sm:flex justify-center items-center px-4 py-9 gap-3 shadow  relative'>
                         <Image
                             src={mobile}
@@ -45,7 +45,7 @@ const index = () => {
                             height={50}
                             className='mx-auto'
                         />
-                        <h1 className='text-xl font-medium text-center mt-3 sm:mt-0'>Mobile Card</h1>
+                        <h1 className='text-xl font-medium text-center mt-3 sm:mt-0'>Mobile Banking</h1>
 
                         <div className='absolute bottom-0 right-0 bg-base-200 p-1 cursor-pointer rounded-l rounded-t'>
                             <IoIosArrowDown className='text-xl text-info font-bold' />

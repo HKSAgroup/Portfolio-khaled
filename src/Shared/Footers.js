@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import img from '../../src/assets/images/Ellipse 90.png'
+import img from '../../src/assets/brandLogo-removebg-preview.png'
 import copyright from '../../src/assets/images/footer/copyright.png'
 
 const Footers = () => {
@@ -8,16 +8,16 @@ const Footers = () => {
     <>
       <div className="bg-accent mt-10">
         <div className="mid-container">
-          <footer className="footer pt-16 lg:pb-32 md:pb-28 sm:pb-16 pb-8 grid lg:grid-cols-5 md:grid-cols-4 grid-cols-2 gap-10">
+          <footer className="footer sm: pt-10  lg:pb-32 md:pb-28 sm:pb-16 pb-8 grid lg:grid-cols-5 md:grid-cols-4 grid-cols-2 gap-10">
             <div>
               <div className='flex items-center gap-2'>
                 <Image
                   src={img}
                   alt="Picture of the author"
-                  width={30}
-                  height={30}
+                  width={150}
+                  height={120}
                 />
-                <h1 className='font-semibold text-2xl'>Portfolio</h1>
+                {/* <h1 className='font-semibold text-2xl'>Portfolio</h1> */}
               </div>
               <p className='text-justify text-sm text-neutral'>Professional designer developer and marketer. Working more then 2 thousand clients Globally. Main target provide best level services for business owner.</p>
               <div className="grid grid-flow-col gap-4 mt-2 text-info">

@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import logo from '../assets/images/Ellipse 90.png'
+import logo from '../assets/brandLogo.jpg'
 import { useRouter } from "next/router";
 import { MdOutlineDashboard } from 'react-icons/md';
 
@@ -59,9 +59,9 @@ const Navbar = () => {
                   alt="logo"
                   width={100}
                   height={100}
-                  className='w-5'
+                  className='w-'
                 ></Image>
-                <h1 className="font-bold text-xl text-info">Portfolio</h1>
+                {/* <h1 className="font-bold text-xl text-info">Portfolio</h1> */}
               </Link>
 
 
