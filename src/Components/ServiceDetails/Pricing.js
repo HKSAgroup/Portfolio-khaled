@@ -1,7 +1,9 @@
+import { useRouter } from 'next/router';
 import React from 'react';
 import { BsArrowUpRightCircle } from 'react-icons/bs';
 
 const Pricing = () => {
+    const router = useRouter();
     return (
         <div className='mt-28 md:flex items-center gap-20'>
             <div className='md:w-[60%]'>
@@ -44,19 +46,21 @@ const Pricing = () => {
                     <p className='text-sm'>Below is what you will get when you buy it. Please read the article...</p>
 
                     <div className='mt-5 space-y-3'>
-                        <p className='flex items-center gap-2 text-sm '><BsArrowUpRightCircle className='text-primary'/> The work is total 22 pages.</p>
-                        <p className='flex items-center gap-2 text-sm '><BsArrowUpRightCircle className='text-primary'/> The work is total 22 pages.</p>
-                        <p className='flex items-center gap-2 text-sm '><BsArrowUpRightCircle className='text-primary'/> The work is total 22 pages design.</p>
-                        <p className='flex items-center gap-2 text-sm '><BsArrowUpRightCircle className='text-primary'/> The work is total 22 pages design.</p>
-                        <p className='flex items-center gap-2 text-sm '><BsArrowUpRightCircle className='text-primary'/> Figma file the work is total 22 pages.</p>
-                        <p className='flex items-center gap-2 text-sm '><BsArrowUpRightCircle className='text-primary'/> The work is total 22 pages design.</p>
-                        <p className='flex items-center gap-2 text-sm '><BsArrowUpRightCircle className='text-primary'/> The work is total 22 pages.</p>
-                        <p className='flex items-center gap-2 text-sm '><BsArrowUpRightCircle className='text-primary'/> The work is total 22 pages.</p>
+                        <p className='flex items-center gap-2 text-sm '><BsArrowUpRightCircle className='text-primary' /> The work is total 22 pages.</p>
+                        <p className='flex items-center gap-2 text-sm '><BsArrowUpRightCircle className='text-primary' /> The work is total 22 pages.</p>
+                        <p className='flex items-center gap-2 text-sm '><BsArrowUpRightCircle className='text-primary' /> The work is total 22 pages design.</p>
+                        <p className='flex items-center gap-2 text-sm '><BsArrowUpRightCircle className='text-primary' /> The work is total 22 pages design.</p>
+                        <p className='flex items-center gap-2 text-sm '><BsArrowUpRightCircle className='text-primary' /> Figma file the work is total 22 pages.</p>
+                        <p className='flex items-center gap-2 text-sm '><BsArrowUpRightCircle className='text-primary' /> The work is total 22 pages design.</p>
+                        <p className='flex items-center gap-2 text-sm '><BsArrowUpRightCircle className='text-primary' /> The work is total 22 pages.</p>
+                        <p className='flex items-center gap-2 text-sm '><BsArrowUpRightCircle className='text-primary' /> The work is total 22 pages.</p>
                     </div>
                 </div>
 
                 <div className='flex gap-4 mt-7'>
-                    <button className='btn btn-primary w-[40%] btn-md text-white'>Buy Now</button>
+                    <button
+                        onClick={() => router.push('/payment')}
+                        className='btn btn-primary w-[40%] btn-md text-white'>Buy Now</button>
                     <div className=' w-[60%] font-bold btn-md border border-primary hover:text-white duration-200 py-2 flex justify-center items-center cursor-pointer hover:bg-primary rounded-md uppercase text-primary'>Or Contact Me</div>
                 </div>
             </div>
