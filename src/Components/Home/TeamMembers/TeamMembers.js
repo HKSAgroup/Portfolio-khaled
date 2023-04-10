@@ -61,7 +61,7 @@ const TeamMembers = () => {
                 </div>
                 <div className='text-center'>
                     <Image
-                        src={img1}
+                        src={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPvd1u_iWqjqy3YVnwbd_q8Cbq88E-oOY1vw&usqp=CAU'}
                         alt="image"
                         width={200}
                         height={200}
@@ -72,7 +72,7 @@ const TeamMembers = () => {
                 </div>
                 <div className='text-center'>
                     <Image
-                        src={img2}
+                        src={'https://s42013.pcdn.co/wp-content/uploads/2016/07/Kenny-Lange-PHNX21Design-Client-Report.jpg'}
                         alt="image"
                         width={200}
                         height={200}
