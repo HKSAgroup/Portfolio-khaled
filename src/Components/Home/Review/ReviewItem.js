@@ -6,7 +6,7 @@ import qoute from '../../../assets/reveiw/backQuote.png'
 const ReviewItem = ({ name, img, desc, title }) => {
     return (
         <motion.div
-            className=" mx-auto  rounded-2xl"
+            className=" mx-auto  rounded-2xl mb-6"
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.5 }}
