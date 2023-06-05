@@ -1,5 +1,6 @@
 {
   "name": "Khaled Ahmed",
+  "homepage": "http://khaledfullstack.com/",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -27,7 +28,7 @@
     "react-copy-to-clipboard": "^5.1.0",
     "react-dom": "18.2.0",
     "react-firebase-hooks": "^5.0.3",
-    "react-hook-form": "^7.40.0",
+    "react-hook-form": "^7.44.3",
     "react-hot-toast": "^2.3.0",
     "react-icons": "^4.7.1",
     "react-image-gallery": "^1.2.11",
@@ -41,7 +42,7 @@
     "reactjs-localstorage": "^1.0.1",
     "redux": "^4.2.0",
     "redux-thunk": "^2.4.1",
-    "sweetalert": "^2.1.2",
+    "sweetalert2": "^11.7.10",
     "swiper": "^8.4.7"
   },
   "devDependencies": {
